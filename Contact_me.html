@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact me</title>
+</head>
+
+<body>
+  <h3>My Contact Details</h3>
+  <p>
+    Phone: (661)244-7894
+    <br>
+    Email: sharbaf.sahar@gmail.com
+  </p>
+  <hr size="2" noshade>
+<!-- info and message taking form -->
+  <form action="mailto:sharbaf.sahar@gmail.com" method="post" enctype="text/plain" >
+    <table>
+      <tr>
+        <td><label for="name">Name: </label></td>
+        <td><input type="text" name="name" value="" required><br></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email: </label></td>
+        <td><input type="text" name="email" value="" required><br></td>
+      </tr>
+      <tr>
+        <td><label for="msg">Message:</label></td>
+        <td><textarea name="msg" rows="8" cols="80"></textarea></td>
+      </tr>
+      <tr>
+        <td><label for="file">Attach file:</label></td>
+        <td><input type="file" name="file" value=""></td>
+      </tr>
+      <tr>
+        <td><label for="date">Date: </label></td>
+        <td><input type="date" name="" value=""></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="submit" name="submit" value="Send"></td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+
+</html>
