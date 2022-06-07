@@ -1,0 +1,110 @@
+body{
+  background-color: white;
+  color: #40514E;
+  text-align: center;
+  margin: 0;
+}
+
+
+hr{
+  background-color: #EFFFFD;
+  border-color: #85F4FF;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1{
+  color: #00AFC1;
+}
+
+h3{
+  color: #00AFC1;
+  font-style: oblique 20deg;
+}
+
+.personal-info{
+  background-color: #EFFFFD;
+  padding-bottom: 50px;
+}
+
+.sahar-img{
+  margin-top: 20px;
+  width: 30%;
+}
+
+.about-me{
+  margin: 10px 50px;
+}
+
+.education_part{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* text-align: center; */
+}
+
+.education-row{
+  display: inline-block;
+  text-align: left;
+}
+
+.grad-hat{
+  width: 20%;
+  float: right;
+  margin: 20px 0 auto 35px;
+}
+
+.skill-row{
+  background-color: #EFFFFD;
+  /* text-align: center; */
+  margin-top: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.skillsTable{
+  display: inline-block;
+  empty-cells: show;
+  text-align: left;
+}
+
+.project-part{
+  padding-top: 50px;
+  /* text-align: center; */
+}
+
+.computer-gif{
+  width: 20%;
+  float: left;
+  margin: 120px 20px auto 50px;
+}
+
+.project-row{
+  display: inline-block;
+  text-align: left;
+}
+
+.certifications-part{
+  margin: 50px auto;
+}
+
+.certification-page{
+  text-align: left;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 40px;
+  line-height: 2;
+}
+.copyright{
+   color: #EAF6F6;
+   line-height: 0.7;
+ }
+
+a{
+  color: #11999E;
+  margin: 30px;
+  text-decoration: none;
+}

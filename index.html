@@ -4,112 +4,261 @@
 <head>
   <meta charset="utf-8">
   <title>Sahar's Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
   <!-- Personal information -->
-  <table cellspacing="20">
-    <tr>
-      <td><img src="Sahar.png" alt="Sahar profile picture"></td>
-      <td>
-        <h1>Sahar Sharbaf Shoar</h1>
-        <p><em>Computer Science Engineer</em></p>
-        <h3><a href="Contact_me.html">Contact me</a></h3>
-        <p>I am a responsible and trustworthy computer science engineer with strong analytical and
-          programming skills. I am a cheerful person with strong communication skills who is able to
-          work individually and in a team.</p>
-      </td>
-    </tr>
-  </table>
+  <div class="personal-info">
+    <img class="sahar-img" src="Sahar.png" alt="Sahar profile picture"></td>
+    <h1>Sahar Sharbaf Shoar</h1>
+    <p><em>Computer Science Engineer</em></p>
+    <h3><a href="Contact_me.html">Contact me</a></h3>
+    <p class="about-me">I am a responsible and trustworthy computer science engineer with strong analytical and
+      programming skills. I am a cheerful person with strong communication skills who is able to
+      work individually and in a team.</p>
+  </div>
   <hr size="2" noshade />
 
-  <!-- Education -->
-  <h3>Education</h3>
-  <ul>
-    <table cellspacing="5">
-      <tbody>
-        <tr>
-          <td>
-            <li>
-              <em>Bachelor of Science</em>, Computer Science
-            </li>
-          </td>
-          <td>12/2021</td>
-        </tr>
-        <tr>
-          <td><em><a href="https://www.csub.edu/">California State University of Bakersfield</a></em>, Bakersfield, CA</td>
-        </tr>
-        <tr>
-          <td>3.52 GPA</td>
-        </tr>
-        <tr>
-          <td>
-            <li><em>Bachelor of Science</em>, Cellular And Molecular Biology</li>
-          </td>
-          <td>2018</td>
-        </tr>
-        <tr>
-          <td><em><a href="https://www.csun.edu/">California State University of Northridge</a></em>, Northridge, CA</td>
-        </tr>
-        <tr>
-          <td>3.44 GPA</td>
-        </tr>
-      </tbody>
-    </table>
-  </ul>
+  <!-- Education table & unorder list-->
+  <div class="education_part">
+    <h3>Education</h3>
+    <div class="education-row">
+      <img class="grad-hat" src="images/mortarboard.gif" />
+      <ul>
+        <table cellspacing="5">
+          <tbody>
+            <tr>
+              <td>
+                <li>
+                  <em>Bachelor of Science</em>, Computer Science
+                </li>
+              </td>
+              <td>12/2021</td>
+            </tr>
+            <tr>
+              <td><em><a href="https://www.csub.edu/">California State University of Bakersfield</a></em>, Bakersfield, CA</td>
+            </tr>
+            <tr>
+              <td>3.52 GPA</td>
+            </tr>
+            <tr>
+              <td>
+                <li><em>Bachelor of Science</em>, Cellular And Molecular Biology</li>
+              </td>
+              <td>2018</td>
+            </tr>
+            <tr>
+              <td><em><a href="https://www.csun.edu/">California State University of Northridge</a></em>, Northridge, CA</td>
+            </tr>
+            <tr>
+              <td>3.44 GPA</td>
+            </tr>
+          </tbody>
+        </table>
+      </ul>
+    </div>
+  </div>
   <hr size="2" noshade />
 
   <!-- Skills, nested table -->
+  <div class="skill-row">
+
   <h3>Skills</h3>
-  <table cellspacing="15">
+
+  <table class="skillsTable" cellspacing="20">
     <tr>
+      <td>
+        <li>Programming/Scripting Languages:</li>
+      </td>
       <td>
         <table>
           <tr>
             <td>Python</td>
-            <td>⭐⭐⭐⭐⭐</td>
           </tr>
           <tr>
             <td>C++</td>
-            <td>⭐⭐⭐⭐</td>
           </tr>
           <tr>
             <td>SQL</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Java</td>
-            <td>⭐⭐</td>
           </tr>
         </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Bootstrap</td>
+          </tr>
+          <tr>
+            <td>HTML</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>JavaScript</td>
+          </tr>
+          <tr>
+            <td>Ruby</td>
+          </tr>
+          <tr>
+            <td>C#</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <li>Frameworks and tools:</li>
       </td>
       <td>
         <table>
           <tr>
             <td>Git</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>HTML</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Ruby</td>
-            <td>⭐⭐⭐⭐</td>
           </tr>
           <tr>
             <td>AWS</td>
-            <td>⭐⭐</td>
           </tr>
         </table>
+    </tr>
+    <tr>
+      <td>
+        <li>Others:</li>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Strong analytical</td>
+          </tr>
+          <tr>
+            <td>Teamwork</td>
+          </tr>
+          <tr>
+            <td>Reliability</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Mathematical skills</td>
+          </tr>
+          <tr>
+            <td>Collaboration</td>
+          </tr>
+          <tr>
+            <td>Detail oriented</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Effective communication</td>
+          </tr>
+          <tr>
 
+          </tr>
+          <tr>
+
+          </tr>
+        </table>
       </td>
     </tr>
+
   </table>
+  </div>
   <hr size="2" noshade />
 
-  <!-- certifications, in a diff page -->
-  <h3><a href="Certification.html">Certifications</a></h3>
+  <!-- Projects -->
+  <div class="project-part">
+    <h3>Projects</h3>
+    <div class="project-row">
+      <img class="computer-gif" src="images/computer.gif" alt="computer" />
+
+      <ul>
+        <table cellspacing="5">
+          <tbody>
+            <tr>
+              <td>
+                <li>
+                  <a href="https://saharshoar.github.io/tindog/"><em>Front end website - tinDog</em></a>
+                </li>
+              </td>
+              <td>May 2022</td>
+            </tr>
+            <tr>
+              <td>It is a responsive frontend website using HTML, CSS, Bootstrap</td>
+            </tr>
+
+            <tr>
+              <td>
+                <li><a href="https://github.com/saharshoar/3500-Statistics-Calculator"><em>Statistics Summary Calculator</em></a></li>
+              </td>
+              <td>Dec 2021</td>
+            </tr>
+            <tr>
+              <td>It is a software that perform basic statistical analysis on a given data set.</td>
+            </tr>
+            <tr>
+              <td>Data Loading from csv files.</td>
+            </tr>
+            <tr>
+              <td>Data Cleaning.</td>
+            </tr>
+            <tr>
+              <td>Function implementation.</td>
+            </tr>
+            <tr>
+              <td>Searching capability.</td>
+            </tr>
+
+            <tr>
+              <td>
+                <li><a href="https://github.com/Passooall/ALK_Front"><em>anti-lockout-kit</em></a></li>
+              </td>
+              <td>May 2021</td>
+            </tr>
+            <tr>
+              <td>It is an anti-lockout-kit; The user will be able unlock the vehicle by log in to its web
+                application by a smartphone or a computer.</td>
+            </tr>
+
+            <tr>
+              <td>
+                <li><a href="https://github.com/saharshoar/CMPS3390/tree/master/final_ptoject"><em>Airport Search engine</em></a></li>
+              </td>
+              <td>Dec 2020</td>
+            </tr>
+            <tr>
+              <td>The purpose of this project is to load a tokenized file. It loads a file of airport codes and
+                allows the user to query its contents.</td>
+            </tr>
+          </tbody>
+        </table>
+      </ul>
+
+
+    </div>
+
+
+  </div>
+
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/saharshoar">GitHub</a>
+    <a class="footer-link" href="Certification.html">Certifications</a>
+    <p class="copyright">Made with ❤</p>
+    <p class="copyright">© Sahar Sharbaf Shoar</p>
+
+  </div>
 
 </body>
 
