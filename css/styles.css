@@ -99,12 +99,16 @@ h3{
   line-height: 2;
 }
 .copyright{
-   color: #EAF6F6;
-   line-height: 0.7;
- }
+  color: #EAF6F6;
+  line-height: 0.7;
+}
 
 a{
-  color: #11999E;
+  color: #40514E;
   margin: 30px;
   text-decoration: none;
+}
+
+.footer-link{
+  font-size: 1.4rem;
 }
